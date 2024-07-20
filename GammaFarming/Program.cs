@@ -9,8 +9,6 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        args = new string[] { "https://gamma.app/signup?r=zw517ayh03nhnzb", "1" }; //test, put here your referral code
-
         if (args.Length != 2)
         {
             Console.WriteLine("""
